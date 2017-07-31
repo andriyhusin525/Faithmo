@@ -1,0 +1,22 @@
+$colors: (
+    "header" : (
+        'title' : #fff,
+        'text-background' : rgba(255, 255, 255, 0.1)
+    ),
+    "content" : (
+        'title' : #2B2B2B,
+        'text' : #989898
+    ),
+    "footer" : (
+        'background' : #161616,
+        'links-border' : #D3D3D3
+    ),
+    "buttons" : (
+        'text' : #fff,
+        'neutral-border' : #fff,
+        'focus' : rgba(0,0,0,.125),
+        'neutral' : transparent,
+        'red' : #FE9168,
+        'green' : #31C5C3
+    )
+)

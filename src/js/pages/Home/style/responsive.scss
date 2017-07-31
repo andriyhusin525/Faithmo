@@ -1,0 +1,267 @@
+@import '../../../../sass/functions';
+@import '../../../../sass/variables';
+
+@media (max-height: 1554px) {
+
+    .wrap--list {
+
+        p {
+            width: 92%
+        }
+
+    }
+
+    .wrap--list-icon {
+        width: 8%;
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 1222px) {
+
+    .home--content {
+
+        .home--content__info {
+            padding-right: 92px;
+        }
+
+    }
+
+}
+
+@media (max-width: 1141px) {
+
+    .home--content {
+
+        .wrap--img--content {
+            padding: 0;
+            text-align: center;
+            margin-top: 0px;
+
+            img {
+                width: 300px;
+            }
+
+        }
+
+        .home--content__info {
+            padding-right: 78px;
+            margin-top: 24px;
+        }
+
+        .wrap--list {
+
+            p {
+                font-size: 14px;
+                width: 90%;
+            }
+
+            .wrap--list-icon {
+                width: 10%;
+            }
+
+        }
+
+    }
+
+}
+
+@media (max-width: 1000px) {
+
+    .home--content {
+
+        .home--content__info {
+
+            padding-right: 43px;
+
+            h2 {
+                font-size: 30px;
+            }
+
+        }
+
+        .wrap--list {
+
+            .wrap--list-icon {
+                width: 15%;
+            }
+
+            p {
+                width: 85%;
+
+            }
+
+        }
+
+    }
+
+}
+
+@media (max-width: 978px) {
+
+    .home--content {
+
+        .wrap--list {
+
+            .wrap--list-icon {
+                margin-top: 10px;
+            }
+
+        }
+
+    }
+
+}
+
+@media (max-width: 848px) {
+
+    .component--header {
+
+        .button.green, .button.red {
+            height: 64px;
+        }
+
+        .button.neutral.header {
+            padding-top: 9px;
+            padding-bottom: 9px;
+        }
+
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .component--header {
+
+        .layer--over {
+            padding-top: 0px;
+        }
+
+        height: 318px;
+
+        .logo {
+            width: 92px;
+            margin-top: 20px;
+        }
+
+        .button.neutral.header {
+            font-size: 16px;
+            padding: 7px 20px;
+            border-width: 1px;
+            top: 20px;
+            font-weight: 500;
+        }
+
+        .wrap--title--main {
+            margin-top: 100px;
+        }
+
+        .title--main {
+            padding: 4px 35px;
+            font-size: 30px;
+            letter-spacing: 10px;
+        }
+
+        .title-info--main {
+            padding: 4px 35px;
+            font-size: 16px;
+            letter-spacing: 4px;
+        }
+
+        .wrap--auth__buttons {
+            padding-left: 10px;
+            margin-top: 20px;
+        }
+
+        .button.green, .button.red {
+            width: 200px;
+            height: 40px;
+            font-size: 16px;
+            font-weight: 500;
+        }
+
+        .button.green.margin--r {
+            margin-right: 20px;
+        }
+
+    }
+
+    .home--content {
+
+        .wrap--img--content {
+
+            display: block;
+            width: 100%;
+
+            img {
+                width: 95px;
+            }
+
+        }
+
+        .home--content__info {
+            margin-top: 40px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            padding-right: 0;
+            width: 80%;
+
+            h2 {
+                text-align: center;
+            }
+
+            .wrap--list-icon {
+                text-align: center;
+                margin-top: 0;
+            }
+
+        }
+
+    }
+
+}
+
+@media (max-width: 564px) {
+
+    .home--content {
+
+        .wrap--list-icon img {
+            margin-top: 10px;
+        }
+
+    }
+
+}
+
+@media (max-width: 447px) {
+
+    .component--header {
+
+        .button.green, .button.red {
+            width: 145px;
+            height: 40px;
+            font-size: 11px;
+        }
+
+        .button.green.margin--r {
+            margin-right: 11px;
+        }
+
+    }
+
+    .home--content {
+
+        padding-bottom: 33px;
+
+        .home--content__info {
+            width: 100%;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+    }
+
+}

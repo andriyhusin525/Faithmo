@@ -1,0 +1,65 @@
+@media (max-width: 800px) {
+
+    .wrap--signup__step-end {
+
+        width: 100%;
+        border-radius: 20px;
+
+        .step-end--title {
+            padding-right: 20px;
+            padding-left: 20px;
+        }
+        
+        p {
+            padding-left: 2%;
+            padding-right: 2%;
+        }
+
+    }
+
+}
+
+@media (max-width: 690px) {
+
+    .wrap--signup__step-end {
+        top: 0;
+
+    }
+
+}
+
+@media (max-width: 580px) {
+
+    .wrap--signup__step-end {
+
+        top: 0;
+        height: 300px;
+        padding-top: 48px;
+
+        .step-end--title {
+            font-size: 20px;
+        }
+        .wrap--signup-button {
+            padding-left: 20px;
+            padding-right: 20px;
+            bottom: 15px;
+        }
+
+        .button--signup--end {
+            width: 100%;
+            border-radius: 12px;
+            font-size: 17px;
+            height: 44px;
+        }
+
+    }
+
+}
+
+@media (max-width: 390px) {
+
+    .wrap--signup__step-end {
+        border-radius: 0;
+    }
+
+}

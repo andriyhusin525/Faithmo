@@ -1,0 +1,187 @@
+@media (max-width: 800px) {
+
+    .wrap--signup__church{
+        padding-left: 16px;
+        padding-right: 16px;
+
+        .wrap--signup__step-form  {
+            width: 100%;
+        }
+
+    }
+
+}
+
+@media (max-width: 708px) {
+
+    .wrap--signup__church{
+
+        .wrap--signup-img, .wrap-form {
+            width: 50%;
+        }
+
+        .wrap--signup-step--bottom {
+            height: auto !important;
+        }
+
+        .wrap--signup-img {
+            height: 200px;
+            margin-top: 72px;
+        }
+
+        .signup-phone {
+            background: url("../../../../../images/signup-phone-small.png") no-repeat center center;
+            -webkit-background-size: contain;
+             -moz-background-size: contain;
+             -o-background-size: contain;
+             background-size: contain;
+             height: 100%;
+             width: 100%;
+             position: relative;
+             margin: auto;
+             left: 0;
+        }
+
+        .wrap-form {
+
+            width: 200px;
+            padding-top: 80px;
+            padding-right: 0;
+
+            &.second, &.third {
+                width: 45%;
+            }
+
+            .form--input.half, .form--select.half {
+                width: 100% !important;
+                margin: 0;
+            }
+
+        }
+
+        .button--signup-first-step {
+            margin-top: 32px;
+        }
+
+        .wrap--step-num {
+            padding-top: 25px;
+        }
+
+        .button--signup-first-step {
+            margin-top: 20px;
+            margin-bottom: 17px;
+        }
+
+        .button--signup-second-step {
+            margin-top: 6px !important;
+            margin-bottom: 48px;
+        }
+
+        .button--signup-third-step {
+            margin-bottom: 48px;
+        }
+
+        .button--signup-first-step, .button--signup-second-step, .button--signup-third-step {
+            border-radius: 8px;
+            height: 48px;
+            width: 170px;
+        }
+
+    }
+
+}
+
+@media (max-width: 690px) {
+
+    .wrap--signup__church{
+
+        padding-top: 36px;
+
+        .wrap--signup__step-one {
+            top: 0;
+        }
+
+        .wrap--signup__step-form {
+
+            &.first, &.second, &.third {
+                height: auto;
+                width: 100%;
+                border-radius: 20px;
+                position: static;
+                margin-bottom: 85px;
+            }
+
+        }
+
+        .wrap--signup-img, .wrap-form {
+            width: 100%;
+        }
+
+        .wrap--signup-img {
+            margin-top: 40px;
+            height: 128px;
+        }
+
+        .wrap-form {
+
+            padding-top: 50px;
+            padding-right: 20px;
+            padding-left: 20px;
+
+            &.second, &.third {
+                width: 100%;
+            }
+
+        }
+
+        .button--signup-first-step, .button--signup-second-step, .button--signup-third-step {
+            width: 100%;
+            border-radius: 8px;
+            height: 44px;
+            margin-top: 13px;
+            margin-bottom: 16px;
+        }
+
+        #g-recaptcha > div {
+            margin: auto;
+        }
+
+    }
+
+}
+
+@media (max-width: 390px) {
+
+    .wrap--signup__church{
+
+        padding-left: 0;
+        padding-right: 0;
+
+        .wrap--signup__step-one {
+
+            width: 100%;
+            border-radius: 0;
+
+            .layer--dark {
+                border-radius: 0;
+            }
+
+        }
+
+        .wrap--signup__step-form  {
+            border-radius: 0 !important;
+        }
+
+        #g-recaptcha {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .button--signup-third-step {
+            margin-top: 107px !important;
+        }
+
+    }
+
+}

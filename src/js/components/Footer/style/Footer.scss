@@ -1,0 +1,36 @@
+@import '../../../../sass/functions';
+@import '../../../../sass/variables';
+
+// Get palette.
+$footerPalette: get-palette('footer');
+
+.component--footer {
+
+    $background: get-color('background', $footerPalette);
+
+    background-color: $background;
+    padding: 26px 0;
+    text-align: center;
+}
+
+.footer-store {
+
+    $links-border: get-color('links-border', $footerPalette);
+
+    cursor: pointer;
+
+    &.androidstore {
+        border: 2px solid $links-border;
+        border-radius: 7px;
+    }
+
+    &.istore {
+        border-top: 2px solid $links-border;
+        border-bottom: 1px solid $links-border;
+        border-left: 1px solid $links-border;
+        border-right: 1px solid $links-border;
+        margin-left: 14px;
+        border-radius: 7px;
+    }
+
+}

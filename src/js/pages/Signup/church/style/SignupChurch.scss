@@ -1,0 +1,216 @@
+.wrap--signup__church {
+
+    background: rgba(254,179,125,1);
+    background: -moz-linear-gradient(top, rgba(254,179,125,1) 0%, rgba(254,179,125,1) 0%, rgba(255,136,103,1) 51%, rgba(254,179,125,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(254,179,125,1)), color-stop(0%, rgba(254,179,125,1)), color-stop(51%, rgba(255,136,103,1)), color-stop(100%, rgba(254,179,125,1)));
+    background: -webkit-linear-gradient(top, rgba(254,179,125,1) 0%, rgba(254,179,125,1) 0%, rgba(255,136,103,1) 51%, rgba(254,179,125,1) 100%);
+    background: -o-linear-gradient(top, rgba(254,179,125,1) 0%, rgba(254,179,125,1) 0%, rgba(255,136,103,1) 51%, rgba(254,179,125,1) 100%);
+    background: -ms-linear-gradient(top, rgba(254,179,125,1) 0%, rgba(254,179,125,1) 0%, rgba(255,136,103,1) 51%, rgba(254,179,125,1) 100%);
+    background: linear-gradient(to bottom, rgba(254,179,125,1) 0%, rgba(254,179,125,1) 0%, rgba(255,136,103,1) 51%, rgba(254,179,125,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feb37d', endColorstr='#feb37d', GradientType=0 );
+
+    .wrap--signup__step-form {
+
+        width: 770px;
+        background-color: #fff;
+        border-radius: 50px;
+        margin: auto;
+        position: relative;
+        top: 81px;
+
+        &.first {
+            height: 457px;
+        }
+
+        &.third {
+
+            .wrap--signup-step--bottom {
+                height: 488px;
+            }
+
+        }
+
+    }
+
+    #g-recaptcha {
+        margin-top: 11px;
+    }
+
+    .wrap--step-num {
+
+        padding-top: 22px;
+        text-align: center;
+
+        &.first .list-num:first-of-type {
+
+            background-color: #FF8361;
+
+            p {
+                color: #fff;
+            }
+
+        }
+
+        &.second .list-num:nth-of-type(2) {
+
+            background-color: #FF8361;
+
+            p {
+                color: #fff;
+            }
+
+        }
+
+        &.third .list-num:nth-of-type(3) {
+
+            background-color: #FF8361;
+
+            p {
+                color: #fff;
+            }
+
+        }
+
+    }
+
+    .list-num {
+
+        display: inline-block;
+        width: 22px;
+        height: 22px;
+        border: 1px solid #FF8361;
+        border-radius: 4em;
+        margin-right: 32px;
+
+        &:last-of-type {
+            margin-right: 0;
+        }
+
+        p {
+            color: #FF8361;
+            font-size: 16px;
+            line-height: 19px;
+        }
+
+
+    }
+
+    .title--step-num {
+        color: #FF8361;
+        font-size: 14px;
+        margin-top: 9px;
+    }
+
+    .wrap--signup-img {
+
+        width: 45%;
+        height: 100%;
+        display: inline-block;
+        position: relative;
+
+    }
+
+    .wrap-form {
+
+        width: 55%;
+        display: inline-block;
+        vertical-align: top;
+        padding-right: 87px;
+        padding-top: 68px;
+
+        &.second {
+
+            .button--signup-second-step {
+                margin-top: 20px;
+            }
+
+        }
+
+        &.third {
+
+            padding-top: 46px;
+
+            .button--signup-third-step {
+                margin-top: 18px;
+            }
+
+        }
+
+        .form--input.full {
+            width: 100% !important;
+            height: 43px !important;
+        }
+
+        .form--input.half {
+            width: 47% !important;
+            height: 43px !important;
+            vertical-align: top;
+            margin-right: 3%;
+        }
+
+        .form--select.half {
+            display: inline-block;
+            width: 47% !important;
+            height: 43px !important;
+            margin-left: 3%;
+        }
+
+        .form--select {
+
+            > div {
+
+                height: 43px !important;
+
+                > div {
+                    color: #000 !important;
+                }
+
+                div:nth-of-type(2) > div div:nth-of-type(2){
+                    height: 39px !important;
+                }
+
+            }
+
+            button div {
+                display: none;
+            }
+
+            button:after {
+                content: url("../../../../../images/arrow--form.png");
+                position: absolute;
+                width: 22px;
+                height: 9px;
+                right: 0;
+                bottom: 23px;
+            }
+
+        }
+
+        &.second {
+            padding-top: 60px;
+        }
+
+    }
+
+    .wrap--signup-step--bottom {
+        height: 386px;
+    }
+
+    .button--signup-first-step {
+        margin-top: 65px;
+    }
+
+    .signup-phone {
+        background: url("../../../../../images/signup-phone.png") no-repeat center center;
+        -webkit-background-size: cover;
+         -moz-background-size: cover;
+         -o-background-size: cover;
+         background-size: cover;
+         width: 234px;
+         height: 356px;
+         position: absolute;
+         bottom: 0;
+         left: 50px;
+    }
+
+}
