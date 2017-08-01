@@ -11,7 +11,7 @@ export default class End extends React.Component {
 
     render() {
 
-        let { arg } = this.props
+        let { arg, link, to } = this.props
 
         return(
             <div className="wrap--signup__step-end">
@@ -19,7 +19,13 @@ export default class End extends React.Component {
                 <p>Just go to your email inbox, look out for the email, ant click on the confirmation link.</p>
                 <p>Then your all set! Do keep a look out, because the confirmation  email might end up in your spam folder.</p>
                 <div className="wrap--signup-button">
-                    <Button type="gradient" text="Ok" class_name="button--signup--end"/>
+                    <Button
+                        type="gradient"
+                        text="Ok"
+                        class_name="button--signup--end"
+                        link={link ? link : false}
+                        to={link ? to : false}
+                    />
                 </div>
             </div>
         )

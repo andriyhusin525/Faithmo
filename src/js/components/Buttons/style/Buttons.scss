@@ -47,6 +47,12 @@ $buttonPalette: get-palette('buttons');
         padding: 13px 61px;
     }
 
+    &.neutral--red {
+        background-color: $neutral;
+        border: 3px solid $red;
+        color: $red;
+    }
+
     &.link {
 
         vertical-align: top;
@@ -86,6 +92,12 @@ $buttonPalette: get-palette('buttons');
 
     &.margin--r {
         margin-right: 27px;
+    }
+
+    &.border--red {
+        border-color: #FE9168;
+        font-size: 16px;
+        color: #FE9168;
     }
 
 }

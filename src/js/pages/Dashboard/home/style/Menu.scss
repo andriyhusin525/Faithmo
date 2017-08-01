@@ -1,0 +1,154 @@
+.modal-content {
+
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+
+    &.hidden {
+        display: none;
+    }
+
+    &.main {
+
+        .wrap--content {
+            height: 340px;
+            background-color: #fff;
+            border-top-left-radius: 30px;
+            border-top-right-radius: 30px;
+        }
+
+        .wrap--content {
+
+            nav {
+                height: 100%;
+            }
+
+            ul {
+                height: 100%;
+                list-style: none;
+                padding: 0;
+            }
+
+            li {
+
+                height: 25%;
+                position: relative;
+                cursor: pointer;
+
+                &:hover p {
+                    border-bottom: 1px solid #414141;
+                }
+
+            }
+
+            li:not(:last-of-type) {
+                border-bottom: 1px solid #d1d1d1;
+            }
+
+            p, img {
+                vertical-align: top;
+                display: inline-block;
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+
+            p {
+                left: 90px;
+                font-size: 28px;
+                font-weight: 400;
+                color: #414141;
+            }
+
+            img {
+                left: 32px;
+            }
+
+        }
+
+    }
+
+    &.user {
+
+        .wrap--content {
+            height: 290px;
+            background-color: #fff;
+            border-top-left-radius: 30px;
+            border-top-right-radius: 30px;
+        }
+
+        .wrap--content {
+
+            position: relative;
+            padding-top: 72px;
+            text-align: center;
+
+            img {
+                border-radius: 50%;
+                position: absolute;
+                left: 50%;
+                transform: translateX(-50%);
+                top: -42px;
+            }
+
+            .user--name {
+                font-size: 26px;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                text-align: center;
+                margin-top: 10px;
+            }
+
+        }
+
+        .button--menu--user {
+
+            width: 186px;
+            height: 58px;
+            font-size: 16px;
+            font-weight: 600;
+            margin-top: 28px;
+
+            &:first-of-type {
+                margin-right: 15px;
+            }
+
+        }
+
+        .logout {
+            font-size: 16px;
+            font-weight: 400;
+            text-transform: uppercase;
+            color: #F67F59;
+            letter-spacing: 4px;
+            display: inline-block;
+            padding-bottom: 5px;
+            border-bottom: 3px solid  #F67F59;
+            cursor: pointer;
+            margin-top: 27px;
+        }
+
+    }
+
+    .wrap--button--exit {
+
+        text-align: center;
+        padding-top: 16px;
+
+        cursor: pointer;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        height: 60px;
+        background: rgba(254,175,120,1);
+        background: -moz-linear-gradient(top, rgba(254,175,120,1) 0%, rgba(254,133,99,1) 0%, rgba(252,131,98,1) 0%, rgba(254,175,120,1) 0%, rgba(245,119,84,1) 100%);
+        background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(254,175,120,1)), color-stop(0%, rgba(254,133,99,1)), color-stop(0%, rgba(252,131,98,1)), color-stop(0%, rgba(254,175,120,1)), color-stop(100%, rgba(245,119,84,1)));
+        background: -webkit-linear-gradient(top, rgba(254,175,120,1) 0%, rgba(254,133,99,1) 0%, rgba(252,131,98,1) 0%, rgba(254,175,120,1) 0%, rgba(245,119,84,1) 100%);
+        background: -o-linear-gradient(top, rgba(254,175,120,1) 0%, rgba(254,133,99,1) 0%, rgba(252,131,98,1) 0%, rgba(254,175,120,1) 0%, rgba(245,119,84,1) 100%);
+        background: -ms-linear-gradient(top, rgba(254,175,120,1) 0%, rgba(254,133,99,1) 0%, rgba(252,131,98,1) 0%, rgba(254,175,120,1) 0%, rgba(245,119,84,1) 100%);
+        background: linear-gradient(to bottom, rgba(254,175,120,1) 0%, rgba(254,133,99,1) 0%, rgba(252,131,98,1) 0%, rgba(254,175,120,1) 0%, rgba(245,119,84,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feaf78', endColorstr='#f57754', GradientType=0 );
+
+    }
+
+}

@@ -1,0 +1,23 @@
+.modal {
+
+    &.hidden {
+        display: none; /* Hidden by default */
+    }
+
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background: rgba(255,140,102,0.9);
+    background: -moz-linear-gradient(top, rgba(255,140,102,0.9) 0%, rgba(255,140,102,0.9) 0%, rgba(255,241,216,0.9) 52%, rgba(255,143,112,0.9) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,140,102,0.9)), color-stop(0%, rgba(255,140,102,0.9)), color-stop(52%, rgba(255,241,216,0.9)), color-stop(100%, rgba(255,143,112,1)));
+    background: -webkit-linear-gradient(top, rgba(255,140,102,0.9) 0%, rgba(255,140,102,0.9) 0%, rgba(255,241,216,0.9) 52%, rgba(255,143,112,0.9) 100%);
+    background: -o-linear-gradient(top, rgba(255,140,102,0.9) 0%, rgba(255,140,102,0.9) 0%, rgba(255,241,216,0.9) 52%, rgba(255,143,112,0.9) 100%);
+    background: -ms-linear-gradient(top, rgba(255,140,102,0.9) 0%, rgba(255,140,102,0.9) 0%, rgba(255,241,216,0.9) 52%, rgba(255,143,112,0.9) 100%);
+    background: linear-gradient(to bottom, rgba(255,140,102,0.9) 0%, rgba(255,140,102,0.9) 0%, rgba(255,241,216,0.9) 52%, rgba(255,143,112,0.9) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8c66', endColorstr='#ff8f70', GradientType=0 );
+
+}

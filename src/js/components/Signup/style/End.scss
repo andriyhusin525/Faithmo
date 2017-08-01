@@ -30,10 +30,16 @@
     }
 
     .wrap--signup-button {
+
         text-align: center;
         position: absolute;
         bottom: 96px;
         width: 100%;
+
+        a {
+            color: #fff;
+        }
+        
     }
-    
+
 }

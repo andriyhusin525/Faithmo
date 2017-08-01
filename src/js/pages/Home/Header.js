@@ -14,7 +14,7 @@ export default class Header extends React.Component {
 
     render() {
         return(
-            <header className="component--header">
+            <header className="component--header--home">
                 <div className="layer--over">
                     <img className="logo" src="images/logo.png" alt=""/>
                     <Button type="neutral" text="Login" class_name="header"/>

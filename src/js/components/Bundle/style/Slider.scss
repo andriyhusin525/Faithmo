@@ -1,0 +1,142 @@
+.wrap--slider {
+
+    .content--slide {
+
+        img {
+            display: inline-block;
+            vertical-align: top;
+            margin-right: 16px;
+        }
+
+    }
+
+    .wrap--user-info {
+
+        display: inline-block;
+        width: 180px;
+
+        .name, .date {
+            display: inline-block;
+        }
+
+        .name {
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+
+        .date {
+            float: right;
+            font-size: 14px;
+            font-weight: 600;
+            margin-top: 2px;
+        }
+
+        .text {
+            color: #A4A4A4;
+            font-size: 14px;
+            font-weight: 600;
+            text-align: left;
+            -webkit-font-smoothing: subpixel-antialiased;
+        }
+
+        .owl-carousel, .owl-item {
+            -webkit-perspective: 1000;
+        }
+
+    }
+
+    &.prayer {
+
+        padding-top: 38px;
+        padding-bottom: 50px;
+
+        .content--slide {
+            width: 50%;
+            display: inline-block;
+            text-align: center;
+        }
+
+        .slider-decorator-1 {
+            right: -53px !important;
+        }
+
+        .slider-decorator-0 {
+            left: -53px !important;
+        }
+
+        .slider-decorator-2 {
+            bottom: -50px !important;
+        }
+
+        .wrap--user-info {
+            text-align: left;
+        }
+
+        .wrap--content {
+            height: 80px;
+        }
+
+    }
+
+    &.calendar {
+
+        padding-left: 6%;
+        padding-right: 9%;
+
+        .wrap--event {
+            height: 315px;
+        }
+
+    }
+
+    .right-arrow, .left-arrow {
+        font-size: 40px;
+        color: #FE9B6E;
+        cursor: pointer;
+    }
+
+    &.subscribe {
+
+        padding-top: 56px;
+        padding-bottom: 56px;
+
+        .wrap--users {
+            width: 276px;
+            height: 266px !important;
+            margin: auto;
+        }
+
+        .wrap--user {
+
+            width: 50%;
+            height: 50%;
+            display: inline-block;
+            text-align: center;
+
+            h6 {
+                margin-top: 2px;
+                font-size: 16px;
+                font-weight: 600;
+            }
+
+        }
+
+        .slider-decorator-1 {
+            right: 14px !important;
+        }
+
+        .slider-decorator-1, .slider-decorator-0 {
+            top: 46% !important;
+        }
+
+        .slider-decorator-0 {
+            left: 15px !important;
+        }
+
+        .slider-decorator-2 {
+            bottom: -53px !important;
+        }
+
+    }
+
+}

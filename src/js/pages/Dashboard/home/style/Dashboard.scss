@@ -1,0 +1,220 @@
+.component--dashboard--home {
+
+    .content {
+        width: 1204px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 35px;
+    }
+
+    .first-half {
+
+        margin-bottom: 40px;
+
+        .wrap--left {
+            width: 64.5%;
+            display: inline-block;
+        }
+
+        .wrap--right {
+            vertical-align: top;
+            padding-left: 20px;
+            width: 35.5%;
+            display: inline-block;
+        }
+
+    }
+
+    .second-half {
+        margin-bottom: 80px;
+    }
+
+    .header.medium {
+        position: relative;
+    }
+
+    .button--add-event {
+
+        position: absolute;
+        right: 17px;
+        top: 18px;
+        width: 170px;
+        height: 36px;
+        color: #fff;
+        border-radius: 30px;
+        border: none;
+        background-color: #323232;
+        outline: none;
+        cursor: pointer;
+
+        .icon--plus {
+            vertical-align: middle;
+            margin-right: 7px;
+        }
+
+    }
+
+    .wrap--bundle.calendar {
+        margin-bottom: 55px;
+    }
+
+    .calendar {
+
+        .wrap--left, .wrap--right {
+            vertical-align: top;
+            display: inline-block;
+        }
+
+        .wrap--left {
+            width: 40%;
+            padding: 49px 60px 28px 60px;
+        }
+
+        .wrap--right {
+            width: 60%;
+            padding-top: 47px;
+            padding-bottom: 20px;
+        }
+
+        .slider-decorator-0, .slider-decorator-1 {
+            top: 51% !important;
+        }
+
+        .slider-decorator-0 {
+            left: -44px !important;
+        }
+
+        .slider-decorator-1 {
+            right: -42px !important;
+        }
+
+        .slider-decorator-2 {
+            bottom: -44px !important;
+        }
+
+        .wrap--event {
+
+            .content--left, .content--right {
+                display: inline-block;
+                vertical-align: top;
+            }
+
+            .content--left {
+
+                max-width: 232px;
+                position: relative;
+
+                h5 {
+                    position: absolute;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    left: 22px;
+                    color: #fff;
+                    font-weight: 300;
+                    font-size: 23px;
+                }
+
+            }
+
+            .content--right {
+                max-width: 376px;
+                padding-left: 30px;
+                margin-top: 19px;
+            }
+
+            .date, .time {
+                font-size: 14px;
+                font-weight: 800;
+                color: #6D6D6D;
+                margin-right: 24px;
+                margin-bottom: 18px;
+                display: inline-block;
+            }
+
+            .par {
+                color: #A4A4A4;
+                font-size: 14px;
+                font-weight: 400;
+                margin-bottom: 17px;
+            }
+
+        }
+
+    }
+
+    .calendar--events {
+
+        width: 100%;
+        height: 333px;
+
+        .DayPicker-wrapper {
+            padding: 0 !important;
+            height: 264px;
+        }
+
+        .DayPicker-wrapper:focus {
+            outline: none !important;
+        }
+
+        .DayPicker-Caption {
+
+            background-color: #EDEDED;
+            height: 45px;
+            border-top-left-radius: 30px;
+            border-top-right-radius: 30px;
+
+            div {
+                padding-top: 13px;
+                font-weight: 600;
+            }
+
+        }
+
+        .DayPicker-Day {
+            border: none;
+            font-weight: 600;
+        }
+
+        .DayPicker-Month {
+            height: 100%;
+            width: 100%;
+            margin: 0;
+        }
+
+        .DayPicker-NavBar {
+
+            span {
+                display: none;
+            }
+
+        }
+
+        .DayPicker-Month {
+            border-right: 1px solid #EDEDED;
+            border-bottom: 1px solid #EDEDED;
+            border-left: 1px solid #EDEDED;
+            border-radius: 30px;
+        }
+
+        .DayPicker-Weekday {
+            color: #FF9871;
+            font-weight: 600;
+        }
+
+    }
+
+    .button.calendar {
+
+        width: 164px;
+        height: 56px;
+        padding: 0;
+        position: absolute;
+        bottom: 3px;
+
+        &:last-of-type {
+            right: 7px;
+        }
+
+    }
+
+}

@@ -1,0 +1,129 @@
+.component--header > div{
+    width: 1204px;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+.component--header.top{
+
+    height: 60px;
+    background-color: #212121;
+
+    .info--left {
+        display: inline-block;
+        color: #fff;
+        font-size: 13px;
+        letter-spacing: 1.4px;
+        margin-top: 20px;
+    }
+
+    .logo--dashboard {
+        position: absolute;
+        top: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .info--user {
+        float: right;
+        margin-top: 12px;
+        cursor: pointer;
+    }
+
+    .name--user {
+
+        display: inline-block;
+        color: #fff;
+        vertical-align: top;
+        font-weight: 600;
+        margin-left: 8px;
+        margin-top: 8px;
+        letter-spacing: 1.8px;
+
+        .arrow {
+            font-size: 26px;
+            color: #3FA7B1;
+        }
+
+    }
+
+}
+
+.component--header.sub {
+
+    height: 51px;
+    background-color: rgba(255, 255, 255, 0.2);
+
+    .wrap--info--left {
+
+        text-transform: uppercase;
+        display: inline-block;
+        margin-top: 9px;
+
+        .name--church {
+            color: #fff;
+            font-size: 17px;
+            letter-spacing: 2.5px;
+            vertical-align: middle;
+            margin-right: 3px;
+        }
+
+        p, div {
+            display: inline-block;
+        }
+
+        .icon--notification {
+            color: #fff;
+            font-size: 32px;
+        }
+
+        .wrap--icon--notification {
+
+            position: relative;
+
+            span {
+                width: 13px;
+                height: 13px;
+                border-radius: 4em;
+                background-color: #47CDD9;
+                position: absolute;
+                color: #fff;
+                text-align: center;
+                font-size: 11px;
+                line-height: 11px;
+                right: 1px;
+                top: 5px;
+            }
+
+        }
+
+    }
+
+    .info--church {
+
+        cursor: pointer;
+        margin-top: 6px;
+        float: right;
+        margin-right: 3px;
+
+        img, p {
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        p {
+            letter-spacing: 1.6px;
+            color: #fff;
+            margin-top: 8px;
+            margin-left: 7px;
+            font-size: 18px;
+        }
+
+        svg {
+            font-size: 27px;
+            margin-top: -3px;
+        }
+
+    }
+
+}

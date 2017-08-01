@@ -1,0 +1,190 @@
+.wrap--bundle {
+
+    border-radius: 30px;
+    -webkit-box-shadow: 1px 1px 8px 0px rgba(133,133,133,1);
+    -moz-box-shadow: 1px 1px 8px 0px rgba(133,133,133,1);
+    box-shadow: 1px 1px 8px 0px rgba(133,133,133,1);
+    margin-bottom: 20px;
+
+    &.prayer .header > div p {
+        margin-top: 0;
+    }
+
+    &.subscribe .header > div p {
+        margin-top: 5px;
+    }
+
+    &.calendar {
+
+        .header {
+            height: 71px;
+            padding-top: 22px;
+        }
+
+    }
+
+    .header {
+
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        height: 60px;
+        padding-top: 16px;
+        padding-right: 15px;
+        padding-left: 30px;
+
+        &.light {
+            background-color: #EDEDED;
+        }
+
+        &.dark {
+            background-color: #212121;
+            color: #fff;
+        }
+
+        > div {
+
+            display: inline-block;
+            vertical-align: top;
+
+            img, p {
+                display: inline-block;
+                vertical-align: middle;
+            }
+
+            img {
+            }
+
+            p {
+                text-transform: uppercase;
+                font-weight: 600;
+                margin-left: 8px;
+                margin-top: 2px;
+                letter-spacing: 1px;
+            }
+
+        }
+
+    }
+
+    .wrap--select {
+
+        width: 216px;
+        float: right;
+        height: 36px;
+        background-color: #CFCFCF;
+        border-radius: 50px;
+
+        > div {
+
+            height: 36px !important;
+
+            > div {
+                color: #fff !important;
+                font-size: 12px;
+                letter-spacing: 1px;
+                top: 6px;
+                left: 18px;
+                font-weight: 600;
+            }
+
+            div:nth-of-type(2) {
+                top: 0;
+                left: 0;
+            }
+
+        }
+
+        > div div:nth-of-type(2) > div div:nth-of-type(2) {
+            height: 36px !important;
+            top: 0;
+        }
+
+        hr {
+            border: none !important;
+        }
+
+        button {
+
+            width: 30px !important;
+            height: 30px !important;
+            padding: 3px !important;
+
+            svg {
+                display: none !important;
+            }
+
+            div:after {
+                content: url("../../../../images/icons/arrow-down--white.png");
+                position: absolute;
+                width: 22px;
+                height: 9px;
+                right: 13px;
+                bottom: 7px;
+            }
+
+            div:before {
+                position: absolute;
+                height: 36px;
+                width: 1px;
+                top: 0;
+                content: " ";
+                background-color: #fff;
+                right: 45px;
+            }
+
+        }
+
+    }
+
+    .wrap--content {
+
+        background-color: #fff;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+
+        &.gifts {
+            height: 131px;
+        }
+
+        &.prayer {
+            // height: 166px;
+            padding-right: 70px;
+            padding-left: 70px;
+        }
+
+        .wrap--info.gifts {
+
+            display: inline-block;
+            margin-top: 22px;
+
+            p {
+                display: inline-block;
+                vertical-align: top;
+                font-weight: 600;
+                font-size: 18px;
+                margin-top: 25px;
+                margin-left: 30px;
+            }
+
+            .price {
+                font-size: 55px;
+                font-weight: 300;
+                margin-top: 0;
+                margin-left: 59px;
+            }
+
+        }
+
+        .wrap--button.gifts {
+            float: right;
+            margin-top: 31px;
+            margin-right: 29px;
+        }
+
+        .button.gifts {
+            padding: 15px 88px;
+        }
+
+    }
+
+}

@@ -13,6 +13,7 @@ import Footer from '../components/Footer/Footer.js';
 // scene
 import Home from './Home/index.js';
 import Signup from './Signup';
+import Dashboard from './Dashboard';
 
 // style
 import '../../sass/style.scss';
@@ -25,6 +26,7 @@ function AppRouter() {
             <div className="wrap--routes">
                 <Route exact path="/" component={Home}/>
                 <Route path="/signup-church" component={Signup.Church}/>
+                <Route path="/dashboard" component={Dashboard.Home}/>
                 <Footer />
             </div>
         </Router>

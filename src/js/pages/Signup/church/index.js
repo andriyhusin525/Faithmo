@@ -10,13 +10,12 @@ import { leavePage, resetPage } from '../../../actions/SignupActions';
 
 // components
 import Step from './Step'
+import Intro from '../../../components/Signup/Intro.js';
+import End from '../../../components/Signup/End.js';
 
 // style
 import './style/SignupChurch.scss';
 import './style/responsive-SignupChurch.scss';
-
-import Intro from '../../../components/Signup/Intro.js';
-import End from '../../../components/Signup/End.js';
 
 class Church extends React.Component {
 
@@ -31,7 +30,7 @@ class Church extends React.Component {
                 return <Intro fun={this.props.leavePage} arg={"first"}/>
             }
             case 'end' : {
-                return <End fun={this.props.leavePage} arg={"intro"}/>
+                return <End fun={this.props.leavePage} arg={"intro"} link to={"dashboard"}/>
             }
             default: {
                 return <Step type={step} fun={this.props.leavePage} />
