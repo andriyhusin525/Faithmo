@@ -1,5 +1,4 @@
 export default {
-
     'prayer' : [
         {
             img: "../../../images/dashboard/img-user--slider.png",
@@ -76,5 +75,5 @@ export default {
             par_two: "Efficiently optimize extensive products whereas end-to-end materials. Objectively promote bricks-and-clicks paradigms rather than functional architectures. Distinctively generate backend outsourcing for distinctive."
         },
     ]
-    
+
 }

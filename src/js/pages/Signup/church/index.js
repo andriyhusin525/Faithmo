@@ -12,6 +12,7 @@ import { leavePage, resetPage } from '../../../actions/SignupActions';
 import Step from './Step'
 import Intro from '../../../components/Signup/Intro.js';
 import End from '../../../components/Signup/End.js';
+import Modal from '../../../components/Modal';
 
 // style
 import './style/SignupChurch.scss';
@@ -42,15 +43,18 @@ class Church extends React.Component {
         return(
             <div className="wrap--signup__church wrap--page">
                 { this.getStep(this.props.step) }
+                <Modal type='form-error' data={this.props.signup_church.get('error_messages')}/>
             </div>
         )
     }
+
 }
 
 
 function stateToProps(state) {
     return {
         step: state.signup_church.get('step'),
+        signup_church: state.signup_church
     }
 }
 

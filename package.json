@@ -27,7 +27,8 @@
     "react-tap-event-plugin": "^2.0.1",
     "redux": "^3.6.0",
     "redux-logger": "^2.8.2",
-    "redux-thunk": "^2.2.0"
+    "redux-thunk": "^2.2.0",
+    "usa-states": "0.0.5"
   },
   "devDependencies": {
     "babel-core": "^6.24.0",
@@ -42,8 +43,9 @@
     "css-loader": "^0.27.3",
     "file-loader": "^0.10.1",
     "import-glob-loader": "^1.1.0",
-    "node-sass": "3.11.3",
     "imports-loader": "^0.6.5",
+    "json-loader": "^0.5.7",
+    "node-sass": "3.11.3",
     "redux-promise-middleware": "^4.3.0",
     "sass-loader": "4.0.2",
     "style-loader": "0.13.1",

@@ -1,4 +1,4 @@
-var debug = process.env.NODE_ENV !== "production";
+    var debug = process.env.NODE_ENV !== "production";
 var webpack = require('webpack');
 var path = require('path');
 
@@ -24,7 +24,11 @@ module.exports = {
     {
         test: /\.(png|jpg)$/,
         loader: 'file-loader?name=images/img-[sha512:hash:base64:7].[ext]'
-     }
+    },
+    {
+        test: /\.json$/,
+        loader: 'json'
+    }
     ]
   },
   output: {
