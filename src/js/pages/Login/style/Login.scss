@@ -1,0 +1,41 @@
+.w-100 {
+  width: 100% !important;
+}
+.wrap-login-form{
+  width: 50%;
+  min-width: 330px;
+  margin: 0px auto;
+  height: 100%;
+  display: table;
+  text-align: center;
+  padding: 20px;
+  .box{
+    width:100%;
+    float: left;
+    margin-bottom: 50px;
+  }
+  .form-title {
+    .icon{
+      font-size: 33px;
+    }
+    color: #f08162;
+    font-weight: 400;
+    font-size: 22px;
+    text-transform: uppercase;
+  }
+  .submit-btn{
+    font-size: 18px;
+    width: 200px;
+    height: 55px;
+  }
+  .forgot-link{
+    padding: 12px;
+    span{
+      color: #f08162;
+      font-size: 14px;
+      font-weight: 600;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  }
+}

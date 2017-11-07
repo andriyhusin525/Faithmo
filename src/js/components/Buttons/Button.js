@@ -1,6 +1,6 @@
 import React from "react"
 
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router'//-dom'
 
 // style
 import './style/Buttons.scss';
@@ -17,6 +17,8 @@ export default class Button extends React.Component {
         if (fun) {
             let args = this.props.fun_arg
             return fun(args ? args : null)
+        } else if (this.props.onClick){
+          this.props.onClick();
         }
         else {
             return null

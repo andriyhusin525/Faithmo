@@ -19,7 +19,7 @@ import { triggerUserMenu, triggerMainMenu } from '../../actions/DashboardActions
 class Headers extends React.Component {
 
     render() {
-        
+
         let { type } = this.props
 
         switch(type) {
@@ -27,8 +27,12 @@ class Headers extends React.Component {
             case 'dashboard_top': {
                 return  <div className="component--header top">
                     <div>
-                        <p className="info--left">Give, Pray and stay Connected.</p>
-                        <img className="logo--dashboard" src="../../../images/dashboard/logo--dashboard.png" />
+                        <div className="info--left">
+                          <p>Give, Pray and stay Connected.</p>
+                        </div>
+                        <div className="logo--dashboard">
+                          <img src="../../../images/dashboard/logo--dashboard.png" />
+                        </div>
                         <div className="info--user" onClick={this.props.triggerUserMenu}>
                             <img src="../../../images/dashboard/main-user--dashboard.png" />
                             <p className="name--user">John Doe <MdKeyboardArrowDown className="arrow"/></p>
@@ -49,7 +53,7 @@ class Headers extends React.Component {
                         </div>
                         <div className="info--church" onClick={this.props.triggerMainMenu}>
                             <img src="../../../images/dashboard/icon--church.png" />
-                            <p>My Church <MdMenu className="menu"/></p>
+                            <p><span>My Church </span><MdMenu className="menu"/></p>
                         </div>
                     </div>
                 </div>

@@ -4,6 +4,7 @@ import ACTIONS from '../data/DashboardConstants';
 const InitialState = new Map({
     user_menu: false,
     main_menu: false,
+    profile: false,
 });
 
 function DashboardReducer(state = InitialState, action) {
@@ -14,6 +15,10 @@ function DashboardReducer(state = InitialState, action) {
         }
         case ACTIONS.TRIGGER_MAIN_MENU: {
             state = state.set('main_menu', !state.get('main_menu'));
+            return state;
+        }
+        case ACTIONS.TRIGGER_PROGILE_MODAL: {
+            state = state.set('profile', !state.get('profile'));
             return state;
         }
         default: {

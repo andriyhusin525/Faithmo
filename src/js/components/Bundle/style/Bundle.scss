@@ -188,3 +188,60 @@
     }
 
 }
+
+@media (max-width: 768px) {
+  .wrap--bundle {
+    .wrap--content {
+      .button.gifts {
+        padding: 15px 30px;
+      }
+      .wrap--info.gifts {
+          p {
+              margin-left: 15px;
+          }
+
+          .price {
+              margin-left: 25px;
+          }
+      }
+    }
+  }
+}
+
+@media (max-width: 564px) {
+  .wrap--bundle {
+    .wrap--content {
+      &.gifts {
+          height: 155px;
+      }
+      .wrap--info.gifts {
+        width: 100%;
+        text-align: center;
+        margin-top: 0px;
+        .price {
+            margin-left: 0px;
+        }
+      }
+      .wrap--button.gifts {
+        width: 100%;
+        text-align: center;
+        margin-right: 0;
+        margin-top: 7px;
+      }
+    }
+  }
+  .wrap--bundle.gifts{
+    .wrap--select {
+      width: 100%;
+    }
+    .header {
+      height: 100px;
+      > div {
+
+        display: block;
+        margin-bottom: 7px;
+      }
+    }
+
+  }
+}

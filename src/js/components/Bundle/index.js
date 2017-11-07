@@ -74,7 +74,7 @@ export default class Bundle extends React.Component {
                 slide_to_scroll: 1
             }
             return  <div className="wrap--content prayer">
-                <Slider type={type} settings={settings}/>
+                <Slider type={type} settings={settings} onClick={this.props.onClick}/>
             </div>
         }
         if (type === "subscribe") {

@@ -168,3 +168,28 @@
     }
 
 }
+
+@media (max-width: 564px) {
+
+    .component--dashboard--home {
+        .calendar {
+          .wrap--left {
+              padding: 25px 12px;
+          }
+        }
+    }
+  }
+
+
+@media (max-width: 400px) {
+
+    .component--dashboard--home {
+        .calendar {
+          .header{
+            p{
+              display: none;
+            }
+          }
+        }
+    }
+  }

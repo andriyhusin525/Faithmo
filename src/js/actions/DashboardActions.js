@@ -12,7 +12,13 @@ function triggerMainMenu() {
     }
 }
 
+function triggerProfileModal() {
+    return {
+        type: ACTIONS.TRIGGER_PROGILE_MODAL,
+    }
+}
 module.exports = {
     triggerUserMenu,
     triggerMainMenu,
+    triggerProfileModal
 }

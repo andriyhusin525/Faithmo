@@ -1,5 +1,5 @@
 import React from "react"
-
+import { withRouter } from 'react-router';
 //utils
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
@@ -26,6 +26,7 @@ class Church extends React.Component {
     }
 
     getStep(step) {
+      console.log('steps', step);
         switch(step) {
             case 'intro': {
                 return <Intro fun={this.props.leavePage} arg={"first"}/>
@@ -40,10 +41,11 @@ class Church extends React.Component {
     }
 
     render() {
+      console.log('this.props', this.props);
         return(
             <div className="wrap--signup__church wrap--page">
-                { this.getStep(this.props.step) }
-                <Modal type='form-error' data={this.props.signup_church.get('error_messages')}/>
+              { this.getStep(this.props.step) }
+              <Modal type='form-error' data={this.props.signup_church.get('error_messages')}/>
             </div>
         )
     }
@@ -65,4 +67,4 @@ function dispatchToProps(dispatch) {
     }, dispatch)
 }
 
-export default connect(stateToProps, dispatchToProps)(Church);
+export default withRouter(connect(stateToProps, dispatchToProps)(Church));

@@ -2,13 +2,69 @@
 
     .component--header {
 
-        padding-right: 15px;
-        padding-left: 15px;
+        padding-right: 30px;
+        padding-left: 30px;
 
         > div {
             width: 100%
         }
-        
+
     }
 
+}
+
+@media (max-width: 768px) {
+
+    .component--header {
+
+        padding-right: 0px;
+        padding-left: 0px;
+
+        > div {
+            width: 100%
+        }
+
+    }
+
+}
+
+@media (max-width: 564px) {
+  .component--header.top{
+    .logo--dashboard {
+      width: 50%;
+      left: 10px;
+      transform: none;
+    }
+    .info--left {
+        display: none;
+    }
+    .info--user{
+      width: 50%;
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .component--header.top{
+    .logo--dashboard {
+      width: 50%;
+      left: 10px;
+      transform: none;
+    }
+    .info--left {
+        display: none;
+    }
+    .info--user{
+      p{
+        display: none;
+      }
+    }
+  }
+  .component--header.sub {
+    .info--church {
+      img, p > span{
+        display: none;
+      }
+    }
+  }
 }

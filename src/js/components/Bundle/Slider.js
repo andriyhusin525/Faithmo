@@ -4,6 +4,7 @@ import carouselArrows from './carouselArrows.js';
 
 // components
 import Button from '../Buttons/Button.js';
+import Modal from '../../components/Modal/index.js'
 
 // style
 import './style/Slider.scss';
@@ -13,8 +14,20 @@ import data from '../../data/data--sliders.js';
 import Decorators from '../../data/config--sliders-decorators.js';
 
 export default class SimpleSlider extends React.Component {
-
-
+  constructor(props){
+    super(props)
+    this.state = {
+      openProfile: false,
+    }
+  }
+    onNameClick(user){
+      // this.setState({
+      //   openProfile: true
+      // })
+      if(this.props.onClick){
+        this.props.onClick(user);
+      }
+    }
     _getSliderContent(data, type) {
         switch(type) {
             case "prayer": {
@@ -71,7 +84,7 @@ export default class SimpleSlider extends React.Component {
                     return  <div key={i} className="content--slide">
                         <img src={user.img} />
                         <div className="wrap--user-info">
-                            <h6 className="name">{user.name}</h6>
+                            <h6 className="name" onClick={()=>this.onNameClick(user)}>{user.name}</h6>
                             <p className="date">{user.date}</p>
                             <p className="text">{user.text}</p>
                         </div>
